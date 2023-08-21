@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <form action="crea animale">
+        <input type="text" placeholder="inserisci nome animale" for="petName" />
+        <input type="text" placeholder="inserisci nome padrone" for="ownerName" />
+        <input type="text" placeholder="inserisci tipo animale" for="species" />
+        <input type="text" placeholder="inserisci razza animale" for="breed" />
+        <button onclick="creaAnimale(event)">crea</button>
+      </form>
+    </header>
+    <main>
+      <ul></ul>
+      <form action="confronta">
+        <input type="range" max="99" step="1" />
+        <p class="primoId"></p>
+        <input type="range" max="99" step="1" />
+        <p class="secondId"></p>
+        <button onclick="confrontaPadroni(event)">verifica</button>
+      </form>
+    </main>
+    <script src="costruttore.js"></script>
+  </body>
+</html>
